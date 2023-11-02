@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Translation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Question and Translation App</h1>
+    </header>
+
+    <main>
+        <section class="question-section">
+            <h2>Ask a Question</h2>
+            <form id="question-form">
+                <input type="text" id="question-input" placeholder="Enter your question">
+                <button type="submit">Ask</button>
+            </form>
+            <div id="question-answer"></div>
+        </section>
+
+        <section class="translation-section">
+            <h2>Translate Text</h2>
+            <form id="translation-form">
+                <input type="text" id="translation-input" placeholder="Enter text to translate">
+                <input type="text" id="translation-code" placeholder="Target language code (e.g., 'es')">
+                <button type="submit">Translate</button>
+            </form>
+            <div id="translated-text"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
